@@ -8,6 +8,9 @@ Directive `datepicker-position` offers different alignments for angular datepick
 Only alignment currently supported (except default left) is to the right.
 Directives in this module were developed in non-invasive fashion, which means no bootstrap code is changed, and when bootstrap starts supporting different alignments, this directives can be easily removed.
 
+### Dependencies
+jQuery
+
 ### Setup
 Only file you need is datepicker-position.js, all other files are just for example!
 
