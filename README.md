@@ -2,7 +2,7 @@ angular-datepicker-align-right
 ==============================
 
 Currently bootstrap supports aligning datepicker popup only to the left of the input field.  
-This can be big problem when input field is at the right edge of screen and datepicker popup goes off screen.
+This can be big problem when input field is at the right edge of screen and datepicker popup goes off the screen.
 
 Directive `datepicker-position-right` aligns angular datepicker popup to the right end of input field.
 Directives in this module were developed in non-invasive fashion, which means no bootstrap code is changed, and when bootstrap starts supporting right align, this directives can be easily removed.
