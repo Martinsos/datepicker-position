@@ -8,7 +8,9 @@ Directive `datepicker-position-right` aligns angular datepicker popup to the rig
 Directives in this module were developed in non-invasive fashion, which means no bootstrap code is changed, and when bootstrap starts supporting right align, this directives can be easily removed.
 
 ### Setup
-We have to override bootstrap datepicker template in order to adjust it a little bit.
+Copy datepicker-position-right.js file to your angular application, add it to index.html and add module as dependency of application module.
+
+Next we have to override bootstrap datepicker template in order to adjust it a little bit.
 
 How to override bootstrap template:
 - in file where app module is declared add following line:  `angular.module("template/datepicker/popup.html", []);`.
